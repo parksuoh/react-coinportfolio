@@ -1,0 +1,34 @@
+.coinplan-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eceff1;
+    
+}
+
+.coinplan-title{
+    color: #775447;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.coinplanList-container{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 750px) {
+    .coinplan-title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .coinplanList-container{
+        width: 100%;
+        padding: 0 10px;
+    }
+}

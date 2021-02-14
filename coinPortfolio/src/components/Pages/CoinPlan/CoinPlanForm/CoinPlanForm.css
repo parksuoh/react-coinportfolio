@@ -1,0 +1,30 @@
+.coinplanform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.coinplanform-input{
+    width: 500px;
+    height: 50px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(191, 191, 191, 0.53);
+}
+
+.coinplanform-button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(191, 191, 191, 0.53);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px){
+    .coinplanform-input{
+        width: 70%;
+    }
+}
